@@ -1,0 +1,279 @@
+.nav {
+  display: block;
+  background-color: white;
+  max-height: 145px;
+  padding: 3px;
+  margin: 0px auto;
+  overflow: auto;
+  width: 100%;
+}
+
+.box {
+display: inline-block;
+margin: 0;
+text-align: center;
+padding: 0px;
+}
+
+.utilities {
+color: white;
+height: 50px;
+width: 120px;
+background-color: #A64C38;
+position: relative;
+bottom: 5px;
+left: 60%;
+border-radius: 4px;
+}
+
+.utilities2 {
+color: white;
+height: 50px;
+width: 120px;
+background-color: #A64C38;
+position: relative;
+bottom: 5px;
+left: 49.5%;
+border-radius: 4px;
+}
+
+.searchBar {
+position: relative;
+left: 54%;
+}
+
+.searchBar input {
+  border-color: black;
+   height: 30px;
+   width: 300px;
+}
+
+.hamburger {
+color: white;
+background-color: #386873;
+height: 130px;
+width:130px;
+text-align: center;
+position: relative;
+right: -59.1%;
+top: -20px;
+margin: 0px;
+}
+
+
+.Title {
+display: block;
+color: white;
+background-color: #74959D;
+height: 165px;
+width: 100%;
+overflow: auto;
+margin: 1px;
+padding: 10px;
+}
+
+.Title h1 {
+font-size: 45px;
+display: inline-block;
+position: relative;
+top: 20px;
+left: 30px;
+}
+
+.Title img {
+display: inline-block;
+position: relative;
+top: 25px;
+left: 40px;
+}
+
+.tabBar {
+display: block;
+color: white;
+background-color: #386873;
+height: 85px;
+width: 100%;
+overflow: auto;
+margin: 1px;
+padding: 10px;
+}
+
+.tabLink {
+font-size: 25px;
+display: inline-block;
+position: relative;
+left: 10%;
+top: 8px;
+}
+
+.tabLink2 {
+font-size: 25px;
+display: inline-block;
+position: relative;
+left: 35%;
+top: 8px;
+}
+
+.tabLink3 {
+font-size: 25px;
+display: inline-block;
+position: relative;
+left: 60%;
+top: 8px;
+}
+
+.heroImage {
+  display: block;
+  color: white;
+  height: 700px;
+  width: 100%;
+  margin: 1px;
+  padding: 10px;
+}
+
+.image {
+  width: 100%;
+  height:700px;
+  background-image: url("../Images/heroimage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  display: inline-block;
+  position: relative;
+  left: 10%;
+  top: -698px;
+  width: 1300px;
+  height: 697px;
+  background-image: url("../Images/overlay.png");
+  opacity:.3;
+}
+
+.heroH2 {
+  font-size: 48px;
+  line-height: 1.5;
+  display: inline-block;
+  position: relative;
+  left: 55%;
+  top: -1100px;
+  z-index: 1;
+}
+
+.heroCTA {
+  font-size: 40px;
+  display: inline-block;
+  position: relative;
+  left: 45%;
+  top: -1000px;
+  z-index: 1;
+}
+
+.footerAbout {
+  display: block;
+  color: white;
+  background-color: #386873;
+  height: 400px;
+  width: 100%;
+  overflow: auto;
+  margin: 1px;
+  padding: 10px;
+}
+
+.Resources {
+  display:inline-block;
+  font-size: 30px;
+  position: relative;
+  left: 60px;
+  top: 25px;
+}
+
+.rowLinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.rowLinks2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  font-size: 24px;
+  display: inline-block;
+  position: relative;
+  left: 70px;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.socialMedia
+{
+  font-size: 30px;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  top: -100%;
+}
+
+.seal {
+  display: inline-block;
+  position: relative;
+  left: 76%;
+  top: -200px;
+}
+
+.fa {
+  display: inline-block;
+  position: relative;
+  bottom: 20%;
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-decoration: none;
+  border-radius: 20%;
+}
+
+.fa-facebook {
+  background: white;
+  color: #386873;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: white;
+  color: #386873;
+}
+
+.fa-instagram {
+  background: white;
+  color: #386873;
+}
+
+.fa-tumblr {
+  background: white;
+  color: #386873;
+}
+
+.fa-youtube {
+  background: white;
+  color: #386873;
+}
+
+.fa-flickr {
+  background: white;
+  color: #386873;
+}
+
+
+
