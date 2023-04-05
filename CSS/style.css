@@ -1,8 +1,8 @@
 .nav {
   display: block;
   background-color: white;
-  max-height: 145px;
-  padding: 3px;
+  max-height: 122px;
+  padding: 1px;
   margin: 0px auto;
   overflow: auto;
   width: 100%;
@@ -17,46 +17,53 @@ padding: 0px;
 
 .utilities {
 color: white;
-height: 50px;
-width: 120px;
+height: 37px;
+width: 95px;
 background-color: #A64C38;
 position: relative;
 bottom: 5px;
-left: 60%;
+left: 28%;
 border-radius: 4px;
+}
+
+.utilities p {
+  font-size: 13px;
 }
 
 .utilities2 {
 color: white;
-height: 50px;
-width: 120px;
+height: 37px;
+width: 95px;
 background-color: #A64C38;
 position: relative;
 bottom: 5px;
-left: 49.5%;
+left: 11%;
 border-radius: 4px;
+}
+
+.utilities2 p {
+  font-size: 13px;
 }
 
 .searchBar {
 position: relative;
-left: 54%;
+left: 17%;
+bottom: 9px;
 }
 
 .searchBar input {
   border-color: black;
-   height: 30px;
+   height: 20px;
    width: 300px;
+   padding: 7px;
 }
 
 .hamburger {
 color: white;
 background-color: #386873;
-height: 130px;
-width:130px;
-text-align: center;
-position: relative;
-right: -59.1%;
-top: -20px;
+height: 120px;
+width: 130px;
+float: right;
 margin: 0px;
 }
 
@@ -99,41 +106,41 @@ padding: 10px;
 }
 
 .tabLink {
-font-size: 25px;
+font-size: 20px;
 display: inline-block;
 position: relative;
-left: 10%;
+left: 80px;
 top: 8px;
 }
 
 .tabLink2 {
-font-size: 25px;
+font-size: 20px;
 display: inline-block;
 position: relative;
-left: 35%;
+left: 350px;
 top: 8px;
 }
 
 .tabLink3 {
-font-size: 25px;
+font-size: 20px;
 display: inline-block;
 position: relative;
-left: 60%;
+left: 650px;
 top: 8px;
 }
 
 .heroImage {
   display: block;
   color: white;
-  height: 700px;
+  height: 400px;
   width: 100%;
-  margin: 1px;
-  padding: 10px;
+  margin: 0px;
+  padding: 1px;
 }
 
 .image {
   width: 100%;
-  height:700px;
+  height:400px;
   background-image: url("../Images/heroimage.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -142,30 +149,30 @@ top: 8px;
 .overlay {
   display: inline-block;
   position: relative;
-  left: 10%;
-  top: -698px;
-  width: 1300px;
-  height: 697px;
+  right: -13px;
+  top: -400px;
+  width: 50%;
+  height: 400px;
   background-image: url("../Images/overlay.png");
   opacity:.3;
 }
 
 .heroH2 {
-  font-size: 48px;
+  font-size: 30px;
   line-height: 1.5;
   display: inline-block;
   position: relative;
   left: 55%;
-  top: -1100px;
+  top: -600px;
   z-index: 1;
 }
 
 .heroCTA {
-  font-size: 40px;
+  font-size: 20px;
   display: inline-block;
   position: relative;
   left: 45%;
-  top: -1000px;
+  top: -500px;
   z-index: 1;
 }
 
@@ -173,19 +180,19 @@ top: 8px;
   display: block;
   color: white;
   background-color: #386873;
-  height: 400px;
+  height: 5%;
   width: 100%;
   overflow: auto;
   margin: 1px;
-  padding: 10px;
+  padding: 0px;
 }
 
 .Resources {
   display:inline-block;
-  font-size: 30px;
+  font-size: 16px;
   position: relative;
   left: 60px;
-  top: 25px;
+  top: 15px;
 }
 
 .rowLinks {
@@ -203,43 +210,43 @@ top: 8px;
 }
 
 li {
-  font-size: 24px;
+  font-size: 13px;
   display: inline-block;
   position: relative;
-  left: 70px;
+  left: 30px;
 }
 
 li a {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 8px 10px;
   text-decoration: none;
 }
 
 .socialMedia
 {
-  font-size: 30px;
+  font-size: 16px;
   display: inline-block;
-  position: relative;
-  left: 50%;
-  top: -100%;
+  position: absolute;
+  left: 45%;
+  top: 140%;
 }
 
 .seal {
   display: inline-block;
   position: relative;
-  left: 76%;
-  top: -200px;
+  bottom: 140px;
+  left: 900px;
 }
 
 .fa {
   display: inline-block;
   position: relative;
-  bottom: 20%;
+  top: 10%;
   padding: 5px;
   font-size: 30px;
-  width: 30px;
+  width: 15px;
   text-decoration: none;
   border-radius: 20%;
 }
